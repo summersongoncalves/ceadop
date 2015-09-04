@@ -1,0 +1,105 @@
+﻿/*
+	Theme Name: Summerson Theme / Organization;	
+	Description: Tema criado para desenvolvimento de sites institucionais simples;
+	Author: Summerson de Souza Gonçalve;
+	Version: 1.0;
+*/
+/*RESET*/
+*{margin: 0;padding: 0;}
+#content{z-index: -1;width:900px;position: absolute;top: 192px;	height: 980px;	left: 5%;padding-bottom:100px}
+html , body{height: 100%}
+body{background:url(img/background.jpg);}
+/*==========================TOPO==========================*/
+#header{width:100%;height: 186px;background:#fff}
+#header_logo{position:absolute;float: left;margin-left: 1%;top:44px; }
+p.titulo{font-family:tahoma ,Helvetica, Arial, sans-serif;
+font-size: 20px;color: #5c5757;	margin-left: 30%; 
+position:relative;top: 130px;font-weight: bold;}
+/* ==========================MENU========================== */
+#header_menu{ height: 25px; font-family: tahoma, Helvetica, Arial, sans-serif;
+font-size: 17px; position: relative; clear: both; width:100%px;padding-bottom: 1px;
+border:1px solid #d0d0d6;margin-top: 140px;}
+#header_menu a{	padding-left: 15px;padding-right: 20px;list-style: none;}
+#header_menu li{display: inline;text-decoration: none;border-right: 1px solid #e1e1e1;}
+#header_menu a:link{text-decoration: none;color: #726c6c;}
+#header_menu a:visited {color: #726c6c;}
+#header_menu a:hover{background-color:  #dedede;color: #ed5353;padding-bottom: 4px;transition: 1s;}
+#header_menu ul{background: url('img/menu-bar.png');background-repeat: repeat;padding-bottom: 5px}
+/*==========================SEARCH ===========================*/
+#header_search{	float: right;position: relative;background-color:#e0e0e0;border:none ;
+border-radius:10px;	width:300px;background: -webkit-linear-gradient(white, #e0e0e0); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(white, #e0e0e0); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(white, #e0e0e0); /* For Firefox 3.6 to 15 */
+background: linear-gradient(white, #e0e0e0); /* Standard syntax */
+top: -25px;	height: 22px}               
+#txtBusca{float:left;background-color:transparent;padding-left:5px;	font-style:italic;
+font-size:18px;	border:none;height:15px;width:230px;color:gray;}
+#btnBusca{position: relative;height: 20px;background: url(img/search3.png) no-repeat center;
+width: 35px;float:right;opacity:0.40;-moz-opacity: 0.40;}	
+/* ==========================CONTEÚDO==========================*/
+#content{background:#fff;position:relative;min-height: 100%;width:900px;overflow:hidden;border-right: 1px solid #d1d1d1 ;
+box-shadow: 2px 7px 10px;-webkit-box-shadow:2px 7px 10px;-moz-box-shadow:2px 7px 10px;	
+	margin-top: -187px
+}
+#content_anuncio img{height:500px;width:100%;}
+
+/*==========================PÁGINAS==========================*/
+#titulo-pagina{padding-top:40px}
+#titulo-pagina span{font-family:Arial, sans-serif; font-size: 18px;
+color: #595959;font-weight: bold;margin-top: 40px;margin-left: 30px;
+border-bottom: 2px solid #c82124;padding-bottom: 5px;text-transform: uppercase;margin-top: 50px;}
+#content-pages p {margin-top:20px;color:#666;margin-left:30px}
+#mapa{margin-left: 30px;margin-top: 50px;border: solid 1px #d1d1d1; padding: 10px; width:500px}
+
+
+/*==========================DESTAQUES==========================*/
+#content_destaques{overflow: hidden;padding-bottom: 40px;height: 280px;}
+#item1 {position:absolute;padding-top: 7%;padding-left:20px;border-right:  1px solid #d1d1d1;
+padding-right:70px;}
+#item1 img{	border-right: 1px solid #d1d1d1;padding-right: 1px; box-shadow: 5px 3px 8px #000; -webkit-box-shadow:5px 3px 8px #000;
+-moz-box-shadow:5px 3px 8px #000;height: 230px;width: auto;}
+#item2{	position:absolute;left:30%; padding-top: 7%;padding-left: 8%;border-right:  1px solid #d1d1d1;
+padding-right:60px;}
+#item2 img{	border-right: 1px solid #d1d1d1;padding-right: 1px;box-shadow: 5px 3px 8px #000;	
+-webkit-box-shadow:5px 3px 8px #000;-moz-box-shadow:5px 3px 8px #000;height: 230px;width: auto;}
+#item3{	position: absolute;left:55%; padding-left: 18%;padding-top: 7%;margin-right: 30px}
+#item3 img{	border-right: 1px solid #d1d1d1;padding-right: 1px; box-shadow: 5px 3px 8px #000;-webkit-box-shadow:5px 3px 8px #000;
+-moz-box-shadow:5px 3px 8px #000;height: 230px;width: auto;}
+p.titulo-destaques{font-family:tahoma ,Helvetica, Arial, sans-serif; font-size: 20px;color: #5c5757;font-weight: bold;
+left: -27%;margin-top: 20px;border-bottom: 2px solid #c82124;padding-bottom: 3px;display: inline-block;	}
+p.descricao{width: 220px;font-family:tahoma ,Helvetica, Arial, sans-serif;font-size: 12px;color: #5c5757;text-align: justify;padding-top: 10px;line-height: 150%;}
+ /*==========================FOOTER==========================*/
+#footer_all{ bottom: 0px;width: 100%;height: 90px;background-color: green;z-index:1;}
+#footer-mid{background-image:url(img/background-footer.png);height: 200px}
+#footer_lista{width: 980px;}
+#footer_lista ul,li{list-style: none ;width: 160px;font-family:tahoma ,Helvetica, Arial, sans-serif;margin-top: 20px;}
+#footer_lista a:link,a:visited{text-decoration: none;color: #d1d1d1}
+#footer_lista a:hover{color:#fff;text-decoration:underline;}
+#footer-coluna1{float:left;margin-left: 55px;padding-right: 80px;}
+#footer-coluna2{float:left;padding-right: 80px;}
+#footer-coluna3{float: left;padding-right: 80px;}
+#footer-coluna4{float: left;}
+#footer_cadastro{clear: both;margin-left:55px;padding-top:45px;font-size:12px;font-weight:bold;float :left;}
+#footer_cadastro label{color:#d1d1d1 ;padding-right: 15px}
+#cx-email{padding-left:5px;	font-style:italic;font-size:18px;border:none;height:18px;width:260px;color:gray;border-radius:4px}
+#bt-enviar{border:1px solid #e3e3e3; -webkit-border-radius: 8px; -moz-border-radius: 8px;border-radius: 8px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 5px 15px 2px 10px; text-decoration:none; display:inline-block;font-weight:bold; color: #6E6E6E;
+ background-color: #FFFFFF; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#ADADAD));
+ background-image: -webkit-linear-gradient(top, #FFFFFF, #ADADAD);
+ background-image: -moz-linear-gradient(top, #FFFFFF, #ADADAD);
+ background-image: -ms-linear-gradient(top, #FFFFFF, #ADADAD);
+ background-image: -o-linear-gradient(top, #FFFFFF, #ADADAD);
+ background-image: linear-gradient(to bottom, #FFFFFF, #ADADAD);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#ADADAD);
+}
+#bt-enviar:hover{ border:1px solid #b3b3b3;
+ background-color: #cdcdcd; background-image: -webkit-gradient(linear, left top, left bottom, from(#cdcdcd), to(#b3b3b3));
+ background-image: -webkit-linear-gradient(top, #cdcdcd, #b3b3b3);
+ background-image: -moz-linear-gradient(top, #cdcdcd, #b3b3b3);
+ background-image: -ms-linear-gradient(top, #cdcdcd, #b3b3b3);
+ background-image: -o-linear-gradient(top, #cdcdcd, #b3b3b3);
+ background-image: linear-gradient(to bottom, #cdcdcd, #b3b3b3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cdcdcd, endColorstr=#b3b3b3);
+}
+#footer-logo img{height: 50px;float:left;padding-left: 50px;margin-top: 20px}
+#footer_txt{background:#fff;text-align:center;font-family: times new roman, arial, tahoma,sans serif;color:#696969}
+.powered{text-align:right;font-family: times new roman, arial, tahoma,sans serif;color:#696969;
+font-size: 12px;
+clear:both}
