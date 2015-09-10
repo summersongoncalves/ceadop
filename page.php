@@ -1,10 +1,7 @@
-		<?php get_header(); ?>
-		
-		<div id="content">
-							
-	
+		<?php get_header(); ?>						
+		<div class="container-fluid">
 			<div id="titulo-pagina">
-				 <span><?php the_title();?></span>
+				 <h3><?php the_title();?></h3>
 			</div>
 			<!--inicion content-pages-->
 			 <div id="content-pages">
@@ -13,14 +10,7 @@
 		 		<?php endwhile; else: ?>
 		 		<?php endif;?>
 			 </div>	
-			<!--fim content-pages-->
-
-
-
-		</div> <!-- fim da div content-->
-				
-
-
+		</div>
     <?php get_footer(); ?>
 </body>
 </html>
