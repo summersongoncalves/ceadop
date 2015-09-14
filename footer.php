@@ -20,8 +20,11 @@
 			</div>
 			<div class="col-md-3">
 				<ul>
-					<?php wp_list_categories('title_li=&hide_empty=0');?>
-				</ul>
+					<?php 
+						wp_list_cats('title_li=&hide_empty=0&sort_column=id');
+					?>
+
+				</ul>				
 			</div>	
 		</div>
 		<div class="row-fluid">

@@ -5,9 +5,16 @@
 			</div>
 			<!--inicion content-pages-->
 			 <div id="content-pages">
-		 		<?php if (have_posts()):while (have_posts()):the_post();  // se houver post ele imprime a postagem relacionada?>
-		 		<p> <?php the_content(); // busca o conteúdo do post ?></p>	
-		 		<?php endwhile; else: ?>
+
+		 		<?php 
+		 			if (have_posts()):
+		 			    while (have_posts()): // se houver post ele imprime a postagem relacionada?
+		 				the_post();?>  
+
+		 		<?php the_content(); // busca o conteúdo do post ?>
+		 		
+		 		<?php endwhile; ?>
+		 		<?php else: ?>
 		 		<?php endif;?>
 			 </div>	
 		</div>

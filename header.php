@@ -11,7 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/css_galeria/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/bootstrap/css/bootstrap.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	
 	<?php wp_head();?>
 </head>
 <body>
@@ -19,7 +18,7 @@
 	<div id="header_logo">
 	   <a href="<?php bloginfo('home')?>"> <img class="logo-ceadop" src="<?php bloginfo('template_url')?>/img/logobw.png" alt="CEADOP LOGO">	</a>
 	</div>
-	<h1 class="titulo">Centro Evangelístico da Assembléia de Deus de Olaria no Prado</h1>
+	<h2 class="titulo">Centro Evangelístico da Assembléia de Deus de Olaria no Prado</h2>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
