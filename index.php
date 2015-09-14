@@ -76,17 +76,21 @@
     </div>
 </div>
 <div class="container-fluid">
-	<div class="row-fluid">
-	 <div class="background-texto">
+	<div class="row-fluid">  
+	<h2 class="titulo-consideracoes">Considerações</h2><hr>     
+	 <div class="background-texto">	   
 	    <p class="texto-index">
-      	Ao longo destes anos temos visto Deus operar com o Seu Poder, Ele é Fiel e as suas Promessas são grandiosas e infalíveis.  
-		Com ajuda Divina temos obtido muitas vitórias sobre as dificuldades do dia a dia.
+      	Ao longo destes anos temos visto Deus operar com o Seu Poder.Com ajuda Divina temos obtido muitas vitórias sobre as dificuldades do dia a dia.
 		O Senhor Deus sempre esteve com as suas mãos poderosas estendidas, pois, Ele é o dono da Obra e operando Deus, quem impedirá!
+		</p>
+		<p class="texto-index">
 		Primando sempre pela Unidade, hoje contamos com um corpo de Obreiros destemidos e corajosos, que vem realizando um belo Trabalho na Seara do Mestre, 
-		são estes que o Senhor tem usado e capacitado para que vidas sejam alcançadas, para Honra e Glória de Deus Pai, Filho e Espírito Santo.
+		são estes que o Senhor tem usado e capacitado para que vidas sejam alcançadas, para Honra e Glória de Deus Pai, Filho e Espírito Santo.</p>
+		<p class="texto-index">
 		Hoje temos cerca de 170 membros e mais congregados... Adorando e bendizendo a Deus! Louvado seja o Senhor Jesus para sempre.
 		A nossa Liderança é uma Bênção, são homens de Deus e exemplo para nós!
-      	</p>
+		</p>
+      	
       	</div>
 	</div>
 </div>

@@ -1,4 +1,8 @@
 $(document).ready(function(){
+// reset checkbox
+
+$("input:checkbox").removeAttr('checked');
+
 /* --------- altera logo ao passar mouse ------------*/
 var path =$(".logo-ceadop")[0].src;
 	$(".logo-ceadop").hover(function(){
@@ -9,13 +13,33 @@ var path =$(".logo-ceadop")[0].src;
 		
 	});	
 /*------------------ campo textArea é escondido ao abrir-------*/	
-$(".wrap-endereco").hide();
+	$(".wrap-endereco").hide();
 
 /*----------mostra campo textArea quando check 'sim' é utilizado ---------*/
-$("#recebe-visita").click(function(){
+	$("#recebe-visita").click(function(){
 	if(!$(this).is(":checked")){
-		$(".wrap-endereco").show();
+		$(".wrap-endereco").toggle('slow');
+	}	
+	
+	});
+/*--------------- função do botão subir -------------------*/
+$('#img-subir').hide();
+
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 100) {
+		$('#img-subir').fadeIn();
+	} else {
+		$('#img-subir').fadeOut();
 	}
 });
 
+
+  $('#img-subir').click(function(){ 
+          $('html, body').animate({scrollTop:0}, 2000);
+      return false;
+
+  });
+
+
 });
+

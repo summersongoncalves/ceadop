@@ -1,4 +1,5 @@
 <!--footer-->
+<span><a  href="#" id="img-subir"><img title = "voltar ao topo"src="<?php bloginfo('template_url')?>/img/subir.png" alt="subir" style:"display:block;opacity:0.7;"</a></span>
 <div class="footer">
 	<div class="container-fluid">
 		<div class="row-fluid">
@@ -42,10 +43,12 @@
 		
 		<div class="footer-2">
 			<address>&copy;2015.Centro Evangelístico da Assembléia de Deus de Olaria do Prado. Todos os direitos Reservados.Av. Nossa Senhora do Amparo - Prado - Conselheiro Paulino - Nova Friburgo - RJ	</address>			 
-		</div>		 	
+		</div>
 	</div>
-	<span class="powered">Powered by Summerson Gonçalves</span>   
+	<span class="powered">Powered by Summerson Gonçalves  </span>	
+
 </div>
+
 <script src="<?php bloginfo('template_url')?>/bootstrap/js/bootstrap.min.js ?> "type="text/javascript" charset="utf-8" async defer></script>
 <script src="<?php bloginfo('template_url')?>/script.js ?> "type="text/javascript" charset="utf-8" async defer></script>
 	<!---fim footer all -->
