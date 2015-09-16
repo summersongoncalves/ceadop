@@ -14,7 +14,7 @@ function getIconePost($nicename){
 }
 
 	
-	
+/*-----  retorna link verdadeiro ---------*/	
 
 
 

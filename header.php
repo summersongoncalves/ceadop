@@ -19,7 +19,7 @@
 	   <a href="<?php bloginfo('home')?>"> <img class="logo-ceadop" src="<?php bloginfo('template_url')?>/img/logobw.png" alt="CEADOP LOGO">	</a>
 	</div>
 	<h2 class="titulo">Centro Evangelístico da Assembléia de Deus de Olaria no Prado</h2>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default"> <!-- barra nevegação-->
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -33,15 +33,8 @@
 					<li ><a href="<?php bloginfo('home')?>">Principal</a></li>
 					<?php wp_list_pages('title_li=&exclude=36,33,31,41');?>
          		 </ul>
-	            <form class="navbar-form navbar-right" action=""  method="post" role="search"> <!--ver aqui se falta navbar-left -->
-		            <div class="form-group">
-		              	<input type="text" class="form-control" placeholder="Buscar..."/>
-		             </div>
-		             	<a href="#" class="btn btn-info">
-							<span class="glyphicon glyphicon-search"></span> Search
-						 	</a>
-		        </form>
+	            <?php get_search_form()?>
            </div>
        </div>
-     </nav>
+     </nav> <!--fim barra naveração-->
 </div>

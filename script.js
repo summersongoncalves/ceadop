@@ -39,6 +39,10 @@ $(window).scroll(function () {
       return false;
 
   });
+  /*-------- função botao buscar ------------*/
+  $("#btn-buscar").click(function(){
+  	$("#form-busca").submit();
+  });
 
 
 });
